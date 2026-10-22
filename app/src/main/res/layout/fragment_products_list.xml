@@ -36,6 +36,7 @@
             android:padding="@dimen/imageViewIconPadding"
             android:src="@drawable/icshoppingcart"
             />
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -89,10 +90,11 @@
         android:id="@+id/BTN_FRGProductsList_AddProduct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Añadir Producto"
-        android:textSize="16sp"
+        android:background="@drawable/bg_button_rounded"
+        android:layout_marginHorizontal="16sp"
         android:textStyle="bold"
-        android:layout_marginHorizontal="16sp" />
+        android:text="@string/FRGProductList_BTNAddProduct"
+        />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/RCV_FRGProductsList_ProductsList"

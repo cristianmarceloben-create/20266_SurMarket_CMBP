@@ -1,6 +1,4 @@
-package bo.edu.uajms.sistemasbermejo.programacionmovil.aramayofernando.surmarket.models
-
-import android.R
+package com.example.surmarket.models
 
 data class product(
     val id: Int,
@@ -9,6 +7,6 @@ data class product(
     val price: Double,
     val imageUrl: String,
     val description: String,
-    val available: Boolean,
+    val availabel: Boolean,
     val stock: Int
 )
