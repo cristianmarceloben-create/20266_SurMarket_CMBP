@@ -40,17 +40,14 @@
             android:id="@+id/ETX_FRGLogin_UserName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:hint="@string/FRGLogin_ETXUserName"
             android:textSize="@dimen/FRGEditTextTextSize"
             android:inputType="text"
             android:layout_marginBottom="16dp"
-
             android:background="@drawable/bg_input_rounded"
             android:padding="@dimen/inputPadding"
             android:textColorHint="@color/inputColor"
             />
-
         <TextView
             android:id="@+id/TXV_FRGLogin_Password"
             android:layout_width="match_parent"
